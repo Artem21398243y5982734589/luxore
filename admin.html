@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма регистрации</title>
+    <link rel="stylesheet" href="style/admin.css">
+</head>
+<body>
+
+<div class="form-container">
+    <form id="registrationForm">
+        <h2>Регистрация</h2>
+        <label for="username">Имя пользователя:</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+        <label for="password">Пароль:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+        <button type="submit">Зарегистрироваться</button>
+    </form>
+</div>
+
+<div id="successOverlay" class="success-overlay"></div>
+<div id="successMessage" class="success-message">
+    <div class="success-content">
+        <img src="image/promo_sale_20240514 (1).jpg" alt="">
+        <p>Успешная регистрация!</p>
+    </div>
+</div>
+
+<script src="script/admin.js"></script>
+
+</body>
+</html>
